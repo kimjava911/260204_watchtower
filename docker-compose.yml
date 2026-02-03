@@ -1,7 +1,7 @@
 services:
   app:
     # GHCR에 푸시된 최신 이미지를 사용합니다.
-    image: ghcr.io/${GITHUB_REPOSITORY_OWNER}/watchtower-app:latest
+    image: ghcr.io/${GITHUB_REPOSITORY_OWNER}/260204_watchtower:latest
     ports:
       - "8080:8080"
     restart: always
